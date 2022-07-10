@@ -62,10 +62,94 @@
   color: black;
 }
 .nav_list>li:hover{
-  border-bottom: 1px solid black;
-  transition: ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
-
+  border-bottom: 2px solid orangered;
 } 
+.bigContainer1{
+  margin: 10px 40px;
+  padding: 5px 135px;
+  display: flex;
+  justify-content: space-between;
+}
+.bigContainer1>.container1>.SearchBar{
+  display:flex;
+}
+.bigContainer1>.container1>.SearchBar>.dropDownMenu{
+  display:block;
+}
+.productDropDown{
+  margin-right: 10px;
+  padding: 5px 15px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.productDropDown{
+  background-color: orangered;
+  color: white;
+  border: 1px solid white;
+}
+.dropDownMenu>.dropDown{
+  position: absolute;
+  border : 1px solid white;
+  background-color: black;
+  color: white;
+  opacity: 0.6;
+  width: 10%;
+  color: white;
+}
+.dropDownMenu>.dropDown>a:hover{
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+}
+.dropDownMenu>.dropDown>a{
+  display: block;
+}
+.button{
+  border-bottom : 1px solid white;
+}
+.input_part{
+  width: 500px;
+}
+.input_place{
+  padding: 8px 15px;
+  width: 100%;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input_place:hover{
+  border: 1px solid orangered;
+}
+.container2{
+  display: flex;
+}
+.container2>.wishList>a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 10px;
+  /* align-content: center; */
+}
+.bigSell{
+  position: relative;
+}
+.sellItem{
+  position: absolute;
+  background-color: orangered;
+  color: white;
+  padding: 5px 0px 5px 5px;
+  width: 70px;
+  cursor: pointer;
+}
+.wishList{
+  margin: 0 15px;
+  padding: 5px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+.main{
+  margin: auto;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+}
+
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
